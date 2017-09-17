@@ -12,5 +12,6 @@ def current_player(board)
   if turn_count(board) % 2 == 0
     "X"
   else
-    "O" #if turn_count(board) array item is odd numbered or even numbered decide which players turn it is
+    "O"
+  end
 end
